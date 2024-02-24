@@ -1,6 +1,10 @@
 // import 'dart:ffi';
 
+// import 'package:farmers_gateway/Screens/home_screen.dart';
+// import 'package:farmers_gateway/Screens/product_detail_screen.dart';
 import 'package:flutter/material.dart';
+
+
 
 Image logoWidget(String imageName) {
   return Image.asset(imageName, fit: BoxFit.fitWidth, width: 240, height: 240);
@@ -63,3 +67,5 @@ Container signInSignUpButton(
     ),
   );
 }
+
+

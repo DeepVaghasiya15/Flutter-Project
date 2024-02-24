@@ -35,8 +35,7 @@ class _SignInScreenState extends State<SignInScreen> {
                   // MediaQuery.of(context).size.height * 0.1
                   child: Column(
                     mainAxisAlignment:
-                        MainAxisAlignment.end, // Align to the bottom
-                    // crossAxisAlignment: CrossAxisAlignment.stretch,
+                        MainAxisAlignment.end,
                     children: <Widget>[
                       logoWidget("assets/images/farmer_logo.jpg"),
                       SizedBox(

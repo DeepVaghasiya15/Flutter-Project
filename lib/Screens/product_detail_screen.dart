@@ -14,12 +14,12 @@ class _product_detail_screenState extends State<product_detail_screen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(
+        title: const Text(
           'Product Details',
           textAlign: TextAlign.center,
         ),
         leading: IconButton(
-          icon: Icon(Icons.arrow_back),
+          icon: const Icon(Icons.arrow_back),
           onPressed: () {
             Navigator.of(context).pop(); // Pop the current screen
           },
@@ -28,8 +28,8 @@ class _product_detail_screenState extends State<product_detail_screen> {
       backgroundColor: Colors.white,
       body: Column(
         children: [
-          Padding(
-            padding: const EdgeInsets.only(left: 10.0),
+          const Padding(
+            padding: EdgeInsets.only(left: 10.0),
             child: Align(
               alignment: Alignment.centerLeft,
               child: Text(
@@ -104,7 +104,7 @@ class _product_detail_screenState extends State<product_detail_screen> {
               ),
             ),
           ),
-          Padding(
+          const Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Align(
               alignment: Alignment.centerLeft,
@@ -118,7 +118,7 @@ class _product_detail_screenState extends State<product_detail_screen> {
               ),
             ),
           ),
-          Padding(
+          const Padding(
             padding: const EdgeInsets.only(left: 10.0),
             child: Align(
               alignment: Alignment.centerLeft,
@@ -171,8 +171,8 @@ class _product_detail_screenState extends State<product_detail_screen> {
                           backgroundColor:
                               MaterialStateProperty.all<Color>(Colors.green),
                         ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(12.0),
+                        child: const Padding(
+                          padding: EdgeInsets.all(12.0),
                           child: Row(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
